@@ -1,25 +1,21 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+{% extends 'landing/base.html' %}
 
-    <title>Quick Remind</title>
-  </head>
+  {% block content %}
   <body>
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIIAAACCCAMAAAC93eDPAAAAJ1BMVEX////d3d3c3Nzz8/Pl5eX8/Pzi4uL5+fnr6+vv7+/29vbZ2dno6OhfZFWCAAAFVUlEQVR4nM1cWbLcIAwc9s33P28A+3m8gGkBnkr/pCqxcY8QklpAPp8+GC+cXZZFRsQ/rBPedA5FhzJi0YwxfkH8K70Io17/vpCah/S5IuI/aSleZKGcDrz6+Z0GD9q9wkIJ5PtfFtNtYSxDv//HgtmZ/qkkI31/Y8HkLEsYWfe/BokgZ1hCLbQZuJDgy7AlXM8UnEgwN2YCHcYIJAQ9YAjX6wRn8NBrCKOnEMgkdJdbihE3vHHggs7ATfCCI+iTISeaYAWXJAJqnhscOFBWxisMSBzUaDiqcmAgh9cYwBxeZAByeMkPdg6AP7zLIHFoMZgfD24cGvFhdkwscniMk/4HDGKs9nUG6hcEEuou+b4jrKi7g/sRg7o7qJ84wopQnoq3I8IR5akQP2QQORSqKPJq2FV92KQ9EfepsDTJGIJenDBKfVTqdkhGLba5vRmBMkJUizfhbKwmCt/rCAQjRH1ULMmVJ5G4mgFfkJw/9C88pda4LEzYCKEh2AVO4mwGdDlw1lQkihDlj78GDM2YLoMtegrTGmQAEPgQgtxhPA+9g8shtOzg38JhQShQBBloB77sb0AMSI0K1LlInCvptQbIsN9khTxO7g9AHr7PBPIsTZlHGMwlCQ/TGzXQVIR1XCCU3DNrG1Du3QZGCraeth0SJddop9qO02OEOMGAFVhe6qZNlrgg/4AkLJ6cAZCRYG64AonTuRHX9txnHVoHUgLkyADEkAcZ+ghkJpKFAaqdDLBMgViLHhn/ABUBKlacTQpdSzIDibseYBo6OtgbkFXpgUz91BRpAHD1mILbFHj/FhewJCKFtte+TMH9DxTa+exlChag8LI7QhT6F2WbAUahN0t9oNAUKQDu2B2gkaoUWhG95QKWpiIFRMf0LglQoAAUerY5MxA5EwdvZ8puZ8DUjIfq3NBHAdOVBivwupYl2D1SUPjoK91Agf/BasyuAwgQgexnWHeKLmYwI+SqUCB+S68fwWZqTkCQ9KNnbLT9mMYFZG0GjQG6ybR2sDC+h+4YAKyNuEc9sEMXCO4A769ssR/twuMuaeBNgb+2AbovhgZJA3fj95Yy3reG7EDYlNgHBPosO+t2iKLsvH+XOuGd1mQQj4R9iVO2lPTTvrslnUI5/B58JtJ7vHqOknoy8RhyaVv26YjvnYVYyFuVx2oMDWb7y5xrmzdKs/mNd5J4PDePcppSME+cBghcb2Dw8eQTzuIAythFIv2b7Veh2D3QAK7O9NOjAwl3ddIOKderAM9ojnaXic+LIh0WkNYJEM5KHZ7XaEmi1WNDjAO2Q9MJqx+uMZQUWi1EciZ950Fm5auH6cu1aDFT8LAMHWs35ZhZy3YFxvV8gJMozDCvFcO3cr7r9PIdhRPV1R92mYrOM9x3XIuIp6LjZLPQ3WMqDHxMAM/9iiODsUsFF5zKuccnv42RgV2IIr41cmhM7587zGbw5dCWAiuHQJJvGJaAMYhsw0i38wnJ2TFZmLpUbzBIzo6K44XP94QEy3F5voSZMeEPMlA8zAXa6RkAShNv7bgY1qde0TRtLXhFTC1zctTAcIn2rGt4SnYaNb03J1mnX9P3anSICbfw0j3A/r0lky6SDiZMl66Yjni2Y2OzkeZg8CrhakbdSULoKVP5Sed6u0hkAk89GdJY6cA37bausTzfM55CIMHLdUCQhVlJyzkW2Eddkqxl2rVutCvjdH50TAKVx15/WjoLXx3cuGV76LVb707mewCbzPZbs0nlk/mrmE4XBeTU2vsObzVb7yNwdmgmbNcUmLZzHaACZYSVm+I79DOk/cF/fXBl4v3a0fB+5Nv/AFLDNlgDer1hAAAAAElFTkSuQmCC" class="rounded float-right" alt="...">
     <!-- Just an image -->
     <nav class="navbar navbar-light">
       <a class="navbar-brand" href="#">
         <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAyVBMVEX////x0zNhovn24mb03UXswy7z2zb888b24mT13lnx1DNXnflbn/ldoPnuyTDrwR7w0ST46qnvzjH04KHvzTtSm/n1+f/w0R98sfqbwvvT5P3///1vqvmCtPpopvm+1/zJ3v220vzi7f6tzfzs9P72+f/9+OHb6f2lyPvy10n9+un+/fb788z14X79+OOSvfv133P57bbz2FL46aPwz13uyUP899j242vz2iX46bz35ZD03Gvy1T314JjrvwDz24jw0GH5657z2X4SRL3YAAAMqklEQVR4nO1di1bi2BIlIKIQJHIHAiKIAorgC23tnrbH2z3//1E3PLPrpCohkCc3e61ZazoEUztVp17nQS6XIUOGDBkyZMiQIUOGDBkyZMiQIUOGDBkyBI1p6e2l8Fp4+VOaxi1KGOiUPk3TMDRNMwzTLMwOjmTp1Zyz28C8n8UtUqDovJiaCvPzgNR4WzYcBC1rLd/GLVhQ+Cgz/OYof8QtWjCYSAQ17dckbuECwT1noitDfY1buCDwUyZouZu3uMXbH7duBK2hmH47fXRnaPyMW8B9MSEEjfJr4ZWGjnLao+I50jHe5nSmb3jNTHtu82mzKW/C30fZDiDGS6zy7Q9Ql/mwufoASZwRo3QBYGLyynqxmZvp9qagLLME10tw/UH8dhoATAxMQiFKEubpw+EzPHwrvQUdPsJ1yHTMdFeJHQwLNhVMVs1OjPIFgIJNxa4GJ7/gaiFW+fYHydDKpbm+OiUsiY20109PhKF5//jz8d5EhuZT3CLui08NUTYMgzQ1jM+4BdwXnYLmirQn3pO3V/cCeN6q+ZNeOy19Gl78FhyNb7M0RozO7Je5Db8FarV/0lbqd8414jHLWl1z+3cxbRxLNCJo5bNisXhmkVpCq8//XScUi7VievoZk4I6D1MvLnF2dla3/lv9q67cUXtPSYp67hh/5TUnijNQYnnxEr7+icbl9NvP44tdv+xU4FYMV/fsocaL8XO7v9Wdw8uGXtUr3eZOzymxE2l1lmGd3LN6DbXdRmOzVbGkblwOt7i1V83PoV/u8qA3k51oYpV4pt66vFz77y4PvtQXUld73oppLW/N5ysD34/hpnrXw0zleFZXCZZXmq598x83BpWV1HrL69b2+tZ83rcSp6cuIb6snZ0BPQe/OVY31N59U7zcSF1pu9/Zb+RtbGHThKBHDjpvdNfnWP4vg/Vwrb377KEOQepG3/XOSn5nhlOXmdAtsRmutb/8UUSG+Yqb3K2qfWPVn5UGQFBbOxv/hnqJgrsMxQGqsHLt6xmFIAjaPrf27iv2XxPJRR95g7f5VKHHROjW2Dij2m9fz0cl5is329yV9xXx36Qw4RMQOP3FxWZ+C+0QTet3fv7+Q0AENVBi8etvPyLc6SA9P8KoP/I1CKeGvGTGJzD7qflyqERBrAW24SXoXT9/Gyd69wamsO++pOgiASbuUzfjaxCeB2ejlhKBYe0fP2I0PZzNM3zunhaocFnVtQtDTGBrvmopTMiqz+qnN/CpaqM31+OBi+N5CdBGNWqmtW/yY+8G42tFUWinDVWJXUwKSNozem5UdL3Rkgw3QD+6BFYgoj9tthq6XmlQTQ2RhKomUKGSEqzKKf1SoHgfMEGllhQIrupBpVgayEp8ho96I/xkvPZAlTH7rFnQKqQNgdp/2KdKUvVgrBH9onorV/jJhe1iq9yjOkGrUKNmWiyyKbgtb4V0lK4gIpDBhtrt4Tea8FIaXFUSvAoVhqwShzCoaN8ClYijzS6R85U+fgHTAJbha/AElYHIFRnIkAb3PigRstML/rLlkUkawBAM3JFqdr9mrUTOnZIklEQyUCIYMER7mpBitaFznibgWLiE0nv8zTx3DBRpJQHpKfga1BRaNao8z/XppiGo0MHwi0nA0T/QgYVlVIUhQo36Eu/muuCzMFSoOlPW1+DAoiMLXMeGOhop2jS6XtZGc6ehECxThnyJgXZKlAi+Y5OcoikSFVaFD9aYhKNClSGff4Od0pGIBry8AgonIQQNocHO1IQRDDXnHAA/lXGBiSaKB8F9dR30TXI5SMbVNHaFoNpPXgx/s09H+TBDgxx7pTFokqItNvEdscXT9D7QylBkKGRuGKwb6OhtM122TqE/Q9zJta1aZzm5wFM4Rupk+MWvRwEPqWMYRyc0pK+CmDNmcnz9G9IwdDIUCow7IRUDB7KQHHUFuh5KmZwN1x1NgTIUWqeoBEiam4pubV2Thj8EQ1pP2QiyxebKsCg0MyQZbc+yGF/2iyAJDXiqxijHoROSo2EY1vhJjJHtDIm3h7TGMr8RJDTwHkY9/suAcJJSluGXMBMFasDOBOi2OsJSC3uMN95GOomQodBVRDPlhbeKWsxchvx3hRnHMGpDgSFbI+aIO0Q9QAC0wgNQQZc51tnLiFKEDKUlKOBExuxli7idxRFX2qXuiENY4ZBjyAdEEgjQW9jO1Mrb2jwVeDnSjOp5SMHCD8MBb2pAvA3/QD1DpcyWvklhiF0IcKb2GLPU1rKVBbldk/ewiWOIXhMSMsjTujgo+/BNKCykxRtJYAheEyu/PrrPHssQklpxpVgSGEJHCssDiSEMuIuUMBx5iw9NGuGWSz4rTQjDSy/x8wLD/gEx9FZzohluYaW8p0nLOPT2NL3/g2hhR3ySnUNHLtERHzqhoAmYnmlBio0J6EiaZE0YwwtS624wwKwN8lJoYoxI/ZFchpCeoc9vI0NIUrH+6LLEE8ew7Sn9IHfF1x9tvmxMGsMWrwio/a6IY8XsHKZrhHCRAIZNmISBwdQkIfCG95pSJzxZDNXu9go3ZK5pBDf14TVsrooDMQEMoTGKBgh2WRmJzRyYkWKXCiWCIciI3kJpo3X5Zo5znjF5DKW5XYXSgNc0TofzTe/4GXb5BQiQji+Iw4to4CyaPRDzOpuaxs5wiOuG4PodNJnm5ger9oiqwZj5hRihMXRuV+QZShKCVS5X79muhgzXG69NXuEx1LZiSLZzYXkATnKZxIDLJdPhMP/IKjE8hupyE54hTmZjOgad0FWg6/PTG2TBEDc7EyLDbaa5cZJaknsV4ZtCVBnhmhzGnYZopaqZcgxxZTrptGAkbzou6dK6WmaDQogMHStqnAxx6wHxkOBhNwq7FgIn2SfkdDZh6tBz8R6VDd0HpirreQpccUsmC1GJzo1CYTJUV9E6GJItQGR2DByk3dgAM6WLoMk+G7XWD1WHHou90QvSvLnP5mJXUoZ2hTFRnQsOl6H7ngRcf9ggr77LrrzAdbUkcyMbgxtKJfwnVIZ0/5OyxQvHFe1B3KFOQGAI+lSJN+hOFV8TyhpvACpRWUSL+VaVdDtBhaSuJcv8iBJh87O6cCik9UJrUCXSR8NSIbqH6U5cUNkSoj58ojrT0JbTbAAMv5Tz6TeuVJLW8QlO1lB32qyuvqT2vsN1NBqNGKqrWY+eKt0LitP6at2OzonOp930KtV8Vc+rhX4Iu2VUivJAzF1UdUuqSo+89hFuLlBXphP2dH1J87rba43VlCa09ULAEJWorooajlu97jV17wPREufAhfni8gvA42kEuD/a4NT7jAXcysxsye+7f6yidFqIACc2w+NzT5mIkvrOz7Ea8Tx9Z1o4iYJh4RQoep0FgjbKNs/IPjWvIxXeIlEhVeKju0j0UAVWftxrKM9tLzCJiCBVoutvtpC9XkKbfoSVhPt5Sz+jsdE5bIZH391EwnKKzJYiSCUhbGxe4CMyFVIlupz8PcYx1pAmdel7EGe3rZw7OhXiSDw6EiMG2azncqoHaQ1IC9hzuVmEKiRmevxH1A05WsfloCjPTaNzTE8iVCEx06Nj4TwXeUupA+2K96v4EylBwvBIiBjkPAGPA9sgLxCWez2dxshQiBigQ898zB6KurCC/TFagpTh0QkvFJx64XnK3MYrCdssHiJ1Mw6Gx/y+hE2L3yUCbNBvzN+Hzu+LzeW+R6zCwv0RBR8xLlZS970JWu/juZfvtQVln0etwhOF4LHwE1jDtiX189YHIYpJ6TRiN6MaqUvEcJHaDyKOFAUS8FcI9Zz626ht1KlCS4lh/mxL1JHCMQoX2KKhsSuiaV0gOILbNDR2RCfySMES3KKhsSuijhSsibpFjH0RXetiyY9xMhuK4RxP//MkQrjQm8O1obErSsfuD40Ubg2NXdHxeKsRI4SI8ZYkFVpKDPxnoqbJIhhCxHhMHEOPFrhffCSNoFcL3De+x82HQaARI1GRYo0gI0YnbjICgosY0x9xc2HxI0B3+vLjeC8IIu73R38EWuw/lPbB7C8es73+apJ+ofWjVuRQC9bfx4m/BYa+fhog0fhXYPhv3IIFht8sQf502VRi+i4w9P+rRwnFE2+klpmm9/c5KW6/BIbSIWWpw0zUYXp+09Ed50adhxFaazdiiCdGG4eiQ/FwPjNJidc+eBJ1eCi+VPyFiPs0/tAxC+GwWiOk6YcYIJxsbvr8lcMkg1XiAalQGImHMwrnuHVuIToYR7rC7S9qqMavQ8lJN5i+4I9Zmy+HUjghHj5NY07SMMzCoSQzKiazx8Jr4XF2QFEiQ4YMGTJkyJAhQ4YMGTJkyJAhQ4YMGTIkB/8D19l0P8cC0RkAAAAASUVORK5CYII=" width="30" height="30" alt="">
         Quick Reminder
+     
       </a>
     </nav>
     <h3 class="display-3">These Are your current Reminders</h3>
     <p class="text-muted">Try<strong>  Making Changes to these </strong> Remainders</p>
     <table class="table">
+
         <thead>
           <tr>
             <th scope="col">#</th>
@@ -29,33 +25,22 @@
           </tr>
         </thead>
         <tbody>
+          {% for val in take %}
           <tr>
-            <th scope="row">1</th>
-            <td>Sunday</td>
-            <td>CS 157</td>
-            <td>12:00pm</td>
+            <th scope="row">#</th>
+            <td>{{ val.day }}</td>
+            <td>{{ val.name }}</td>
+            <td>{{ val.time }}</td>
             <td><button type="button" class="btn btn-danger">Delete</button></td>
           </tr>
-          <tr>
-            <th scope="row">2</th>
-            <td>Monday</td>
-            <td>Math 161</td>
-            <td>8:00am</td>
-            <td><button type="button" class="btn btn-danger">Delete</button></td>
-          </tr>
-          <tr>
-            <th scope="row">3</th>
-            <td>Tuesday</td>
-            <td>CS 153</td>
-            <td>5:00pm</td>
-            <td><button type="button" class="btn btn-danger">Delete</button></td>
-          </tr>
+          {% endfor %}
+          
         </tbody>
       </table>
       <div class="container">
+        
         <button class="btn btn-primary span-2 col-3">Add Remainders</button>
         <button class="btn btn-danger span-2 col-3">Clear All </button>
       </div>
 
-  </body>
-</html>
+  {% endblock content %}
